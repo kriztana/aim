@@ -6,7 +6,20 @@
 
 ### Fixes
 
+## 3.16.2 Mar 3, 2023
+
+- Add exception-free mode to Aim (alberttorosyan)
+- Expose `capture_terminal_logs` argument for `aim.sdk.adapters` classes (mihran113)
+- Handle inconsistency between Sequence data and metadata (alberttorosyan)
+
+## 3.16.1 Feb 27, 2023
+
 - Pin package version `alembic>=1.5.0` (justinvyu)
+- Fix segment `flush()` issue with no internet access (alberttorosyan)
+- Fix the issue with an empty-illustrations styles on Base explorers (KaroMourad)
+- Add 'join community' popup to the sidebar (KaroMourad)
+- Use non-strict mode when logging HF model metadata (alberttorosyan)
+- Add set() method implementation in ProxyTree/SubtreeView classes (alberttorosyan)
 
 ## 3.16.0 Feb 3, 2023
 
